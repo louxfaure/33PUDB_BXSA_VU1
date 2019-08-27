@@ -1,0 +1,155 @@
+/*Uncomment the follwoing lines to move facets to the left*/
+
+/*
+prm-search > md-content.md-primoExplore-theme .main {
+    display: -webkit-flex; !* Safari *!
+    -webkit-flex-flow: row-reverse wrap; !* Safari 6.1+ *!
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+}
+.screen-gt-sm .sidebar{
+    webkit-flex: 0 0 15%;
+    flex: 0 0 15%;
+}
+
+*/
+
+
+/* Top Barre */
+prm-topbar {
+    height: 100px;
+    position: relative;
+}
+prm-topbar .top-nav-bar {
+    background-color: #fff;
+}
+prm-main-menu[menu-type=menu] .md-button {
+    padding: 0 .75em;
+    max-width: 12em;
+    font-size: .75em;
+    color: #1796A2;
+	 border-bottom: 4px solid #1796A2;
+}
+prm-main-menu[menu-type=menu] .md-button.button-over-dark:hover,prm-main-menu[menu-type=menu] .md-button.button-over-dark:focus {
+    color: #fff;
+	background-color: #1796A2;
+}
+
+/* Icons topbar */
+.md-icon-button.button-over-dark.md-button{
+	 color:#fff;
+}
+/*prm-search-bookmark-filter .md-icon-button.button-over-dark.md-button {
+    background-color: rgb(111, 155, 44);
+}
+prm-search-bookmark-filter .md-icon-button.button-over-dark.md-button:hover {
+   background-color: rgb(88, 124, 34);
+}*/
+
+prm-search-bookmark-filter .fixed-to-top #favorites-button, prm-search-bookmark-filter .fixed-to-top #search-button {
+    color: #fff;
+}
+
+/* S'identifier + Menu */
+.sign-in-btn-ctm, .button-with-menu-arrow {
+    color: #443a31 !important;
+}
+
+.top-nav-bar {
+    background-color: white !important;
+    color: #443a31 !important;
+}
+.menu-arrow {
+    color: rgb(111, 155, 44) !important;
+}
+prm-icon md-icon.md-primoExplore-theme {
+    color:  rgb(111, 155, 44) !important;
+}
+.darker-bg, prm-search-bookmark-filter .md-button, prm-user-area, prm-user-area md-fab-trigger.show-user-info:after {
+    background-color: rgba(58,58,58,.12);
+}
+
+/*Barre recherche*/
+.prm-primary-bg, prm-atoz-search-bar, prm-browse-search-bar, prm-collection-gallery-header .collection-header-inner, prm-newspapers-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark:after, prm-tags-search-bar {
+    color: #666;
+    background-color: #fff;
+}
+prm-atoz-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-newspapers-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+	color:#666;
+}
+
+.classic-input .search-scope, .prm-alert-bg {
+    background-color: rgba(153, 153, 153, 0.3);
+}
+.classic-input .search-scope, .prm-alert {
+    color: #333;
+}
+.classic-input .search-scope {
+    background-color:  rgb(111, 155, 44);
+    border-color:  rgb(111, 155, 44);
+    color:  #fff;
+}
+
+/*Barre d'alerte*/
+.bar.alert-bar, .prm-alert-border {
+    border-color: #FAB625;
+}
+
+.bar.alert-bar, .prm-alert-bg {
+    background-color: #FAB625;
+}
+
+/*Login*/
+/*
+.darker-bg, prm-search-bookmark-filter .md-button, prm-user-area, prm-user-area md-fab-trigger.show-user-info:after {
+    background-color: #1796A2;
+}
+prm-user-area .user-menu-button .user-name {
+    color: #fff;
+}
+*/
+
+/*Index alpha*/
+prm-alphabet-toolbar .md-button {
+	color: #fff;
+    background: #1796A2;
+	margin-right:3px;
+}
+
+prm-alphabet-toolbar:hover  .md-button.md-ink-ripple{
+	color: #fff;
+	box-shadow:none;
+	background: #1796A2;
+	opacity:1;
+}
+
+prm-alphabet-toolbar .md-button.active, prm-alphabet-toolbar .md-button.active.md-focused, prm-alphabet-toolbar .md-button.active:focus, prm-alphabet-toolbar .md-button.active:hover {
+    color: #fff;
+    background: #1796A2;
+}
+
+/* recherche avancée */
+.md-button.button-notice, .md-button.md-primary  {
+	color:#333;
+}
+.md-button.button-notice:hover, .md-button.md-primary:hover  {
+	background-color:#eee;
+}
+.md-headline{
+	font-weight:700;
+}
+/* AFA : REbonds vers d'autres bases tous les 10 résultats */
+#externalSiteList {
+    background-color: rgb(243,243,243);
+    border-radius: 5px;
+    padding: 10px; }
+
+#externalSiteList .default-card {
+    background-color: #fff;
+    }
+  
+#externalSiteList img {
+    height: 2.5em; 
+    margin: 1em;
+}

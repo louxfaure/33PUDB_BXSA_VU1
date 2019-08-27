@@ -1,0 +1,34 @@
+<!-- <span ng-bind="mycounter"></span> -->
+<div id="externalSiteList" ng-show="$ctrl.showExternalSiteList">
+        <md-card class="default-card _md md-primoExplore-theme">
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">Vous ne trouvez pas le document que vous cherchez ?</span>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-content>
+                N'hésitez pas à relancer votre recherche sur les sites suivants pour élargir les possibilités :    
+                    <div layout="row" layout-align="center">
+                        <a href='https://www.scholarvox.com/catalog/search/searchterm/{{ queryTerm }}?searchtype=all' title='Relancer la recherche sur ScholarVox'>
+                            <img src='custom/33PUDB_BXSA_VU1/img/logo-scholarVox.jpg' alt='ScholarVox'/>
+                        </a>
+                        <a href='https://www.cairn.info/resultats_recherche.php?searchTerm={{ queryTerm }}&searchTermStored=all' title='Relancer la recherche sur Cairn'>
+                            <img src='custom/33PUDB_BXSA_VU1/img/logo-cairn-short.png' alt='Cairn'/>
+                        </a>
+                        <a href='https://cdi.agro-bordeaux.fr/modules/webportal/search.php?op=get&idbase=47&idsearch=47' title='Relancer la recherche sur la base article de BXSA'>
+                            <img src='custom/33PUDB_BXSA_VU1/img/logo-renadoc.png' alt='Base article'/>
+                        </a>
+                    </div>
+                </md-card-content>
+                <button class="dismiss-alert-button zero-margin md-button md-primoExplore-theme md-ink-ripple button-with-icon" ng-click="$ctrl.externalSearchMsgOnClick()">
+                    <prm-icon icon-type="svg" svg-icon-set="navigation" icon-definition="ic_close_24px">
+                        <md-icon md-svg-icon="navigation:ic_close_24px" alt="" class="md-primoExplore-theme" aria-hidden="true"></md-icon>
+                    </prm-icon>
+                    NE PLUS AFFICHER CE MESSAGE
+                </button>
+            </md-card>
+    
+    <!-- <a href='https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q={{ queryTerm }}'>
+      <img src='custom/33PUDB_UBM_VU1/img/logo_scholar.png'/>
+    </a> -->
+  </div>
