@@ -10,13 +10,13 @@
                 N'hésitez pas à relancer votre recherche sur les sites suivants pour élargir les possibilités :    
                     <div layout="row" layout-align="center">
                         <a href='https://www.scholarvox.com/catalog/search/searchterm/{{ queryTerm }}?searchtype=all' title='Relancer la recherche sur ScholarVox'>
-                            <img src='custom/33PUDB_BXSA_VU1/img/logo-scholarVox.jpg' alt='ScholarVox'/>
+                            <img src='custom/{{$ctrl.parentCtrl.vid}}/img/logo-scholarVox.jpg' alt='ScholarVox'/>
                         </a>
                         <a href='https://www.cairn.info/resultats_recherche.php?searchTerm={{ queryTerm }}&searchTermStored=all' title='Relancer la recherche sur Cairn'>
-                            <img src='custom/33PUDB_BXSA_VU1/img/logo-cairn-short.png' alt='Cairn'/>
+                            <img src='custom/{{ $ctrl.parentCtrl.vid }}/img/logo-cairn-short.png' alt='Cairn'/>
                         </a>
                         <a href='https://cdi.agro-bordeaux.fr/modules/webportal/search.php?op=get&idbase=47&idsearch=47' title='Relancer la recherche sur la base article de BXSA'>
-                            <img src='custom/33PUDB_BXSA_VU1/img/logo-renadoc.png' alt='Base article'/>
+                            <img src='custom/{{ $ctrl.parentCtrl.vid }}/img/logo-renadoc.png' alt='Base article'/>
                         </a>
                     </div>
                 </md-card-content>
