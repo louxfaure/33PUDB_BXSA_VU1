@@ -4,6 +4,10 @@
 import linkToExternalSearchSystem from './linkToExternalSearchSystem.html'
 class linkToExternalSearchSystemController {
     constructor($scope, $window, favSession){
+        if (typeof this.parentCtrl.searchStateService.resultObject.info == 'undefined') {
+          // Notice détaillée
+          return;
+        }
         console.log(this.parentCtrl.storageUtil.localStorage.testLocal)
         console.log('----> 33PUDB linkToExternalSearchSystemController');
         var lastResult = this.parentCtrl.searchStateService.resultObject.info.last;
